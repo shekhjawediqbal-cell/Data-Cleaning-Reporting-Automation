@@ -1,0 +1,38 @@
+DATA CLEANING & REPORTING AUTOMATION
+===================================
+
+1. DATASET SUMMARY
+Original rows: 31
+Final rows: 28
+Columns after cleaning: 9
+Duplicate rows removed: 3
+
+2. CLEANING OPERATIONS
+- Removed completely empty columns
+- Removed duplicate rows
+- Cleaned client names
+- Standardized contact names
+- Split Department and Region
+- Standardized payment methods
+- Preserved missing values during calculations
+- Exported missing values as N/A in Excel
+- Formatted the Excel worksheet
+
+3. MISSING VALUES IN CLEANED DATA
+Date             0
+Client           0
+Contact          0
+Department       0
+Payment          2
+Revenue          2
+Profit           0
+Profit Margin    2
+Region           0
+
+4. PROFIT MARGIN VALIDATION
+Rows checked: 26
+Mismatches found: 0
+Missing profit margins: 2
+
+5. OUTPUT FILE
+E:\python\vertual env\Data-Cleaning-Reporting-Automation\output\cleaned_data.xlsx
